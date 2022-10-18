@@ -7,6 +7,7 @@ import { CharactersDialogComponent } from './components/characters/characters-di
 import { SpeciesComponent } from './components/species/species.component';
 import { SpeciesDialogComponent } from './components/species/species-dialog/species-dialog.component';
 import { ImportsMaterialModule } from './imports-material/imports-material.module';
+import { MenuComponent } from './components/menu/menu.component';
 
 
 @NgModule({
@@ -17,6 +18,7 @@ import { ImportsMaterialModule } from './imports-material/imports-material.modul
     CharactersDialogComponent,
     SpeciesComponent,
     SpeciesDialogComponent,
+    MenuComponent,
   ],
   imports: [
     AppRoutingModule,

@@ -1,4 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: "jedi";
+  src: url(assets/fonts/Starjedi.ttf);
+}
+
 
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body {
+  box-sizing: border-box;
+  margin: 0 auto;
+  font-family: 'jedi', Roboto, "Helvetica Neue", sans-serif;
+  background-color: black;
+}
+
+
+
